@@ -17,7 +17,7 @@
   <mp:PhoneIdentity PhoneProductId="c4095211-8083-479f-be39-459fa90fbb1a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>DisneyCastleClassification</DisplayName>
+    <DisplayName>Classification</DisplayName>
     <PublisherDisplayName>piete</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -33,14 +33,14 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="DisneyCastleClassification.Program"
+      EntryPoint="Classification.Program"
       desktop4:Subsystem="console"
       desktop4:SupportsMultipleInstances="true">
       <uap:VisualElements
-        DisplayName="DisneyCastleClassification"
+        DisplayName="Classification"
         Square150x150Logo="Assets\Square150x150Logo.png" 
         Square44x44Logo="Assets\Square44x44Logo.png" 
-        Description="DisneyCastleClassification" BackgroundColor="transparent">
+        Description="Classification" BackgroundColor="transparent">
         <uap:DefaultTile 
           Wide310x150Logo="Assets\Wide310x150Logo.png" 
           Square310x310Logo="Assets\Square310x310Logo.png" 
@@ -51,8 +51,8 @@
       <Extensions>
         <uap5:Extension
             Category="windows.appExecutionAlias"
-            Executable="DisneyCastleClassification.exe"
-            EntryPoint="DisneyCastleClassification.Program">
+            Executable="Classification.exe"
+            EntryPoint="Classification.Program">
           <uap5:AppExecutionAlias desktop4:Subsystem="console">
             <uap5:ExecutionAlias Alias="TagPhotos.exe" />
           </uap5:AppExecutionAlias>
